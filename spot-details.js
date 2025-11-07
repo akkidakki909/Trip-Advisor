@@ -21,6 +21,8 @@ if (!spot) {
       <p> ${spot.history}</p>
       <p>Food - ${spot.prices.food}, Activities - ${spot.prices.activities}, Transport - ${spot.prices.transport}</p>
       <iframe src="${mapURL}" loading="lazy"></iframe>
+      <button class="sosbtn" >SOS</button>
     </div>
   `;
 }
+
